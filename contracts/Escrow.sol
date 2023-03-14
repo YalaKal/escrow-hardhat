@@ -1,6 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
 
+/**
+ * @title Escrow Smart Contract
+ * @author Kalminkou
+ * @notice Minimal escrow 
+ */
+
 contract Escrow {
 	address public arbiter;
 	address public beneficiary;
